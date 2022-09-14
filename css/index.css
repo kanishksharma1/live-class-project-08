@@ -1,0 +1,198 @@
+body {
+  font-family: "Roboto";
+  color: #120e43;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-content: center;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+  height: 60%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.signin-btn {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 100px;
+  background: #8d3daf;
+  background-image: -webkit-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -moz-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -ms-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -o-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: linear-gradient(to right, #8d3daf, #ff6666);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 11px 27px 28px 27px;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.signin-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.web_design {
+  font-size: 60px;
+}
+.left-section {
+  margin-top: 20%;
+  margin-left: 9%;
+}
+
+.intro-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+h4 {
+  line-height: 35px;
+}
+
+.learn-more-btn {
+  margin-top: 40px;
+  background: #8d3daf;
+  background-image: -webkit-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -moz-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -ms-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -o-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: linear-gradient(to right, #8d3daf, #ff6666);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px 27px 16px 27px;
+  text-decoration: none;
+  border: none;
+  font-family: "Roboto";
+}
+
+.learn-more-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1240px) {
+  .signin-btn{
+    margin-right: 150px;
+  }
+
+  .intro-img{
+    width: 90%;
+  }
+  .intro-img img{
+    width: fit-content;
+    height: auto;
+  }
+
+  .vector-img{
+    width: 10%;
+  }
+
+  .vector-img img{
+    width: fit-content;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:950px){
+.nav-items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.signin-btn {
+  width: 50%;
+  height: 10%;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 100px;
+  background: #8d3daf;
+  background-image: -webkit-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -moz-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -ms-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -o-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: linear-gradient(to right, #8d3daf, #ff6666);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 11px 27px 28px 27px;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.logo{
+  width: 65%;
+position: relative;
+bottom: 100px;
+left: 120px;
+}
+}
+
+@media screen and (max-width:800px) {
+.logo{
+position: relative;
+margin-right: 170px;
+right: 20px;
+  width: 70%;
+}
+.signin-btn {
+  position: relative;
+  top: 450px;
+  right: 220px;
+  width: 35%;
+  height: 10%;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 130px;
+  background: #8d3daf;
+  background-image: -webkit-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -moz-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -ms-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: -o-linear-gradient(left, #8d3daf, #ff6666);
+  background-image: linear-gradient(to right, #8d3daf, #ff6666);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 11px 27px 28px 27px;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+}
